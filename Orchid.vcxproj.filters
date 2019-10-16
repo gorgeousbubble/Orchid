@@ -15,10 +15,14 @@
     <ClInclude Include="OrchidCommon.h">
       <Filter>global</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="logs\OrchidLogs.cpp">
       <Filter>logs</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Orchid.rc" />
   </ItemGroup>
 </Project>

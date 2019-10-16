@@ -144,9 +144,13 @@
   <ItemGroup>
     <ClInclude Include="logs\OrchidLogs.h" />
     <ClInclude Include="OrchidCommon.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="logs\OrchidLogs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Orchid.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
