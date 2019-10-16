@@ -4,10 +4,16 @@
     <Filter Include="logs">
       <UniqueIdentifier>{a03c6a8b-b71b-458c-b88a-715abe609c67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{86e45465-28ab-4a7b-9ea2-fb4835bfc585}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="logs\OrchidLogs.h">
       <Filter>logs</Filter>
+    </ClInclude>
+    <ClInclude Include="OrchidCommon.h">
+      <Filter>global</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
