@@ -29,14 +29,18 @@
 
 class ORCHIDLOGS_API COrchidLogs
 {
-protected:
+private:
 	static void ORCHIDLOGS_CALLMETHOD GetComputerNames();
 	static void ORCHIDLOGS_CALLMETHOD GetUserNames();
 	static void ORCHIDLOGS_CALLMETHOD GetWindowsVersions();
 
+protected:
+	static void ORCHIDLOGS_CALLMETHOD GetLogFilePath(char *pStr, int nSize);
+	static void ORCHIDLOGS_CALLMETHOD CreateLogFilePath();
+
+public:
+	static void ORCHIDLOGS_CALLMETHOD Write(LPCSTR file, LONG line, LPCSTR lpcstr, ...);
+	static void ORCHIDLOGS_CALLMETHOD WriteLine(LPCSTR file, LONG line, LPCSTR lpcstr, ...);
 };
 
-
-
 #endif // !__ORCHIDLOGS_H__
-
