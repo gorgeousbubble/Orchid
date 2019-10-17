@@ -12,10 +12,10 @@
     <ClInclude Include="logs\OrchidLogs.h">
       <Filter>logs</Filter>
     </ClInclude>
-    <ClInclude Include="OrchidCommon.h">
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="global\OrchidCommon.h">
       <Filter>global</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="logs\OrchidLogs.cpp">
