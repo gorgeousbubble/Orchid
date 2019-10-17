@@ -142,8 +142,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="global\OrchidCommon.h" />
     <ClInclude Include="logs\OrchidLogs.h" />
-    <ClInclude Include="OrchidCommon.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
