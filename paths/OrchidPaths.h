@@ -30,6 +30,8 @@
 class ORCHIDPATHS_API COrchidPaths
 {
 public:
+	static BOOL ORCHIDPATHS_CALLMETHOD GetModulePathA(const char* szArr, int nSize);
+	static BOOL ORCHIDPATHS_CALLMETHOD GetModulePathW(const wchar_t* wszArr, int nSize);
 	static BOOL ORCHIDPATHS_CALLMETHOD GetLocalPathA(const char* szArr, int nSize);
 	static BOOL ORCHIDPATHS_CALLMETHOD GetLocalPathW(const wchar_t* wszArr, int nSize);
 	static BOOL ORCHIDPATHS_CALLMETHOD GetParentPathA(const char* szArr, int nSize, int nDeep);
