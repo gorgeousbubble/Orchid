@@ -7,6 +7,12 @@
     <Filter Include="global">
       <UniqueIdentifier>{86e45465-28ab-4a7b-9ea2-fb4835bfc585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3304d26e-3795-4c1c-9c91-a29c7b8b1547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paths">
+      <UniqueIdentifier>{792720f4-d835-47db-8a6b-12155d50870a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="logs\OrchidLogs.h">
@@ -16,10 +22,22 @@
     <ClInclude Include="global\OrchidCommon.h">
       <Filter>global</Filter>
     </ClInclude>
+    <ClInclude Include="utils\OrchidConvert.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="paths\OrchidPaths.h">
+      <Filter>paths</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="logs\OrchidLogs.cpp">
       <Filter>logs</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\OrchidConvert.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="paths\OrchidPaths.cpp">
+      <Filter>paths</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

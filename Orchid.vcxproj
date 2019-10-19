@@ -72,10 +72,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>tmp\$(Configuration)\</IntDir>
-    <IncludePath>$(SolutionDir)global;$(SolutionDir)logs;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)global;$(SolutionDir)logs;$(SolutionDir)paths;$(SolutionDir)utils;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(SolutionDir)logs;$(SolutionDir)global;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)logs;$(SolutionDir)global;$(SolutionDir)paths;$(SolutionDir)utils;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>tmp\$(Configuration)\</IntDir>
   </PropertyGroup>
@@ -144,10 +144,14 @@
   <ItemGroup>
     <ClInclude Include="global\OrchidCommon.h" />
     <ClInclude Include="logs\OrchidLogs.h" />
+    <ClInclude Include="paths\OrchidPaths.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="utils\OrchidConvert.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="logs\OrchidLogs.cpp" />
+    <ClCompile Include="paths\OrchidPaths.cpp" />
+    <ClCompile Include="utils\OrchidConvert.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Orchid.rc" />
